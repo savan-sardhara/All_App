@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AllExerciseApp</string>
+    <string-array name="city">
+        <item>Egypt</item>
+        <item>us</item>
+        <item>UK</item>
+        <item>spain</item>
+        <item>India</item>
+    </string-array>
+</resources>

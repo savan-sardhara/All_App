@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RalativeLayoutPractice">
+
+
+    <TextView
+        android:id="@+id/boxcenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="200dp"
+        android:width="200dp"
+        android:background="@color/purple_500"
+        android:layout_centerInParent="true"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/smallbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="100dp"
+        android:width="100dp"
+        android:background="@color/teal_200"
+        android:layout_above="@+id/boxcenter"
+        android:layout_centerHorizontal="true"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/smallbox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="100dp"
+        android:width="100dp"
+        android:background="@color/teal_200"
+        android:layout_toLeftOf="@+id/boxcenter"
+        android:layout_centerVertical="true"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/smallbox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="100dp"
+        android:width="100dp"
+        android:background="@color/teal_200"
+        android:layout_below="@+id/boxcenter"
+        android:layout_centerHorizontal="true"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/smallbox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="100dp"
+        android:width="100dp"
+        android:background="@color/teal_200"
+        android:layout_toRightOf="@+id/boxcenter"
+        android:layout_centerVertical="true"
+        android:text="" />
+
+
+</RelativeLayout>

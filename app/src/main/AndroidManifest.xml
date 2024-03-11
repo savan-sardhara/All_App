@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AllExerciseApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".XMLShape"
+            android:exported="false"
+            android:label="XML Shape"
+            android:theme="@style/dark"
+
+            />
+        <activity
+            android:name=".Tablelayout"
+            android:exported="false"
+            android:label="TableLayout"
+            android:theme="@style/dark"
+
+            />
+        <activity
+            android:name=".Framelayout"
+            android:exported="false"
+            android:label="Frame Layout"
+            android:theme="@style/dark"
+
+            />
+        <activity
+            android:name=".ActivityCycle"
+            android:exported="false"
+            android:label="Activity LifeCycle"
+            android:theme="@style/dark"
+
+
+            />
+        <activity
+            android:name=".Progressbar"
+            android:exported="false"
+            android:label="ProgressBar"
+            android:theme="@style/dark"
+
+            />
+        <activity
+            android:name=".AutocompletTextview"
+            android:exported="false"
+            android:label="Autocomplet Textview"
+            android:theme="@style/dark"
+
+            />
+        <activity
+            android:name=".Radiobutton"
+            android:exported="false"
+            android:label="Radio Button"
+            android:theme="@style/dark"
+
+
+            />
+        <activity
+            android:name=".Checkbox"
+            android:exported="false"
+            android:label="Check Box"
+            android:theme="@style/dark"
+
+            />
+        <activity
+            android:name=".Gallery"
+            android:exported="false"
+            android:label="Gallery"
+            android:theme="@style/dark"
+
+            />
+        <activity
+            android:name=".DynamicControl"
+            android:exported="false"
+            android:label="Dynamic Control"
+            android:theme="@style/dark"
+
+            />
+        <activity
+            android:name=".sharedpref"
+            android:exported="false"
+            android:label="Shared Preference"
+            android:theme="@style/dark"
+
+            />
+        <activity
+            android:name=".ToggleButtonToast"
+            android:exported="false"
+            android:label="Toggle Button Toast"
+            android:theme="@style/dark"
+
+            />
+        <activity
+            android:name=".RalativeLayoutPractice"
+            android:exported="false"
+            android:label="Ralative Layout"
+            android:theme="@style/dark"
+
+            />
+        <activity
+            android:name=".AlertBox"
+            android:exported="false"
+            android:label="Alert Box"
+            android:theme="@style/dark"
+
+            />
+        <activity
+            android:name=".DateAndTime"
+            android:exported="false"
+            android:label="Date And Time"
+            android:theme="@style/dark"
+
+            />
+        <activity
+            android:name=".spinner"
+            android:exported="false"
+            android:label="spinner"
+            android:theme="@style/dark"
+
+            />
+        <activity
+            android:name=".Registration"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ForIntenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
